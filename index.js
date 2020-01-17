@@ -16,6 +16,7 @@ app.get('/rc',function(req, res){
     if (err) throw err;
     img.resize(size[0], size[1]).getBase64( Jimp.AUTO , function(e,img64){
         if(e)throw e
+        res.type("image/jpeg");
         res.send('<img src="'+img64+'">')
     });
   });
