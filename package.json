@@ -4,7 +4,7 @@
   "description": "A Node.Js img resizer",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "nodemon src/index.js"
   },
   "author": "Thiago Roieski Maltezo",
   "license": "MIT",
