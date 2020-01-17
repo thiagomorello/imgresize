@@ -1,0 +1,17 @@
+{
+  "name": "imgresize",
+  "version": "1.0.0",
+  "description": "A Node.Js img resizer",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "author": "Thiago Roieski Maltezo",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jimp": "^0.9.3",
+    "nodemon": "^2.0.2"
+  }
+}
