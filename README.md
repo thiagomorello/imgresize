@@ -10,6 +10,6 @@ resizes any image without saving it into your server
 3 - Run using yarn dev <br/>
 
 <h3>How to use</h3>
-Simply like that
+Simply like that <br/>
 http://locahost:3000?size=100x100&img=http://external-link-with-image.com/image.jpg
 
